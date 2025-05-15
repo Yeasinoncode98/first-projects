@@ -22,3 +22,19 @@
 </body>
   
 </html>
+
+/*
+h1-selector
+color-property
+blue-value
+*/
+
+
+h1{
+    color: blue; /*Decleration*/
+    font-size: 60px;  /*Decleration*/
+}
+p{
+    color: rgb(0, 255, 115);
+    font-size: 18px;
+}

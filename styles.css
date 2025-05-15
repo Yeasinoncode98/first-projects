@@ -10,6 +10,16 @@ h1{
     font-size: 60px;  /*Decleration*/
 }
 p{
-    color: aqua;
+    color: rgb(0, 255, 115);
     font-size: 18px;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    background: aqua ;
+    margin-bottom: 20px;
+}
+div p{
+    color: black;
 }
