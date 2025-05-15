@@ -12,13 +12,118 @@
 </head>
   
 <body>
+   
 
-  <h1>Hello, world!</h1>
-  <p>This is a basic HTML skeleton.</p>
-  <h2>BIG BIG</h2>
+  <h1>Hello, world</h1>
+  <h1>Esports Team</h1>
   
 
- 
+  <div class="first_div text_bk">
+   <p>Lorem ipsum dolor sit amet.</p>
+   <h2 class="text_bk">Hello</h2>
+   <h4 class="text_bk">Hiii</h4>
+  </div>
+
+  <div id="big_div">
+    <p style="color:brown">BIG DUCK</p>
+    <h3>HEN</h3>
+  </div>
+
+  <div id="big_div_2">
+    <p>Lorem ipsum dolor sit amet.</p>
+  </div>
+
+  <div>
+    <p class="text_bk">Lorem ipsum dolor sit amet.</p>
+  </div>
+
+  
+  <p>Lorem ipsum dolor sit amet 
+  consectetur adipisicing elit. Deserunt, officiis?</p>
+
+  
 </body>
   
 </html>
+
+ 
+<!--USED CSS
+
+h1 {
+    color: green; /*Declaration*/
+    font-size: 60px; /*Declaration*/
+  }
+  
+  p {
+    color: red;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  div {
+    width: 200px;
+    height: 200px;
+    background: aqua; /* General div style */
+    margin-bottom: 20px;
+    margin-top: 30px;
+
+  }
+
+  div p{
+    color: black;
+  }
+  
+  .text_bk {
+color: red;
+text-align:center;
+background: blue;
+margin: 20px;
+}
+
+  .first_div {
+    background: rgb(0, 255, 94);
+  }
+
+  .first_div p{
+    color: white;
+  }
+
+  .first_div p{
+    color: black;
+
+  }
+
+
+  #big_div {
+text-align: center;
+justify-content: center;
+
+}
+
+
+h3{
+    margin-top: 50px;
+}
+
+
+#big_div_2{
+    text-align: center;
+
+}
+
+/*Grouping*/
+
+#big_div,
+#big_div_2, .first_div{
+    width: 200px;
+}
+
+/*
+* ->Universal selector
+. ->Class selector
+# ->Id selector
+, ->Group selector
+*/
+
+
+-->
