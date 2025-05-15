@@ -1,0 +1,15 @@
+/*
+h1-selector
+color-property
+blue-value
+*/
+
+
+h1{
+    color: blue; /*Decleration*/
+    font-size: 60px;  /*Decleration*/
+}
+p{
+    color: aqua;
+    font-size: 18px;
+}
