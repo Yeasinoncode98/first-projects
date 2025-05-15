@@ -1,25 +1,77 @@
-/*
-h1-selector
-color-property
-blue-value
-*/
 
-
-h1{
-    color: blue; /*Decleration*/
-    font-size: 60px;  /*Decleration*/
-}
-p{
-    color: rgb(0, 255, 115);
+h1 {
+    color: green; /*Declaration*/
+    font-size: 60px; /*Declaration*/
+  }
+  
+  p {
+    color: red;
     font-size: 18px;
-}
-
-div{
+    text-align: center;
+  }
+  
+  div {
     width: 200px;
     height: 200px;
-    background: aqua ;
+    background: aqua; /* General div style */
     margin-bottom: 20px;
-}
-div p{
+    margin-top: 30px;
+
+  }
+
+  div p{
     color: black;
+  }
+  
+  .text_bk {
+color: red;
+text-align:center;
+background: blue;
+margin: 20px;
 }
+
+  .first_div {
+    background: rgb(0, 255, 94);
+  }
+
+  .first_div p{
+    color: white;
+  }
+
+  .first_div p{
+    color: black;
+
+  }
+
+
+  #big_div {
+text-align: center;
+justify-content: center;
+
+}
+
+
+h3{
+    margin-top: 50px;
+}
+
+
+#big_div_2{
+    text-align: center;
+
+}
+
+/*Grouping*/
+
+#big_div,
+#big_div_2, .first_div{
+    width: 200px;
+}
+
+/*
+* ->Universal selector
+. ->Class selector
+# ->Id selector
+, ->Group selector
+*/
+
