@@ -1,25 +1,25 @@
+h1{
+  display: inline-block;
+ /* border-style: outset;
+  border-width: 10px;*/
+  border-color: #474787;
 
-body{
-  background: url(bg.jpg);
-  background-attachment: fixed;
-}
+  /*Shorthand
+  1st called border: border-width , border-style , border-color
+  */
 
-div{
-  background-color: rgba(240, 128, 128,0.7);
-  background-image: url(css.png);
-  background-size: 150px 150px;
+/*
+  border: 5px solid green;
+  border-radius: 15px; */
 
-  /*background-repeat: repeat-x;
-  background-repeat: repeat-y;*/
+  border-left:   5px solid greenyellow;
+  border-right:  5px solid greenyellow;
+  border-bottom: 5px solid greenyellow;
+  border-top:    5px solid greenyellow;
 
-  background-repeat: no-repeat;
-  background-position: center right ;
-
-
-  /*shorthand*/
-   
-  background:#ff5252 url(css.png)
-   no-repeat center;
-
-
+  border-left-style: dotted ;
+  border-right-style: dashed;
+  border-bottom-style: double;
+  border-top-style: groove;
+  border-radius: 15px;
 }
