@@ -1,25 +1,42 @@
-h1{
-  display: inline-block;
- /* border-style: outset;
-  border-width: 10px;*/
-  border-color: #474787;
+*{
+  margin: 0;
+  padding: 0;
+}
 
-  /*Shorthand
-  1st called border: border-width , border-style , border-color
-  */
+.parent {
+  background:#227093 ;
+  width: 300px;
+  margin-top: 50px;
+  padding-top: 50px;
+
+  margin-left: 50px;
+  padding-left: 50px;
+
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+
+  margin: 20px auto; /*By giving auto  the parent will div came to center horizontally*/
+  padding: 20px;
+}
 
 /*
-  border: 5px solid green;
-  border-radius: 15px; */
+.child {
+  background: #218c74;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+*/
 
-  border-left:   5px solid greenyellow;
-  border-right:  5px solid greenyellow;
-  border-bottom: 5px solid greenyellow;
-  border-top:    5px solid greenyellow;
+.child {
+  background: #218c74;
+  margin: 25px 30px;/*Giving Margin top and bottom also right,left*/
+  padding: 10px 20px;/*Giving padding top and bottom also right,left*/
 
-  border-left-style: dotted ;
-  border-right-style: dashed;
-  border-bottom-style: double;
-  border-top-style: groove;
-  border-radius: 15px;
+  /*shorthand practise*/
+  margin: 20px; /*Total top,bottom,left,right margin same 20px*/
+  padding: 25px;/*Total top,bottom,left,right padding same 20px*/
 }
