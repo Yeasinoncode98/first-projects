@@ -1,0 +1,148 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    padding: 0 10px;
+    font-family: "Open Sans", sans-serif;
+    background-image: url("https://images.unsplash.com/photo-1500964757637-c85e8a162699?q=80&w=2078&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); /* Added a new, beautiful background image */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  body::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* Slightly darker overlay */
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(5px);
+    z-index: -1;
+  }
+  
+  .wrapper {
+    width: 400px;
+    border-radius: 15px;
+    padding: 40px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    z-index: 1;
+  }
+  
+  .wrapper:hover {
+    box-shadow: 0 12px 48px rgba(0, 0, 0, 0.5);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  h2 {
+    font-size: 2.2rem;
+    margin-bottom: 25px;
+    color: #ffffff;
+    letter-spacing: 1px;
+  }
+  
+  .input-field {
+    position: relative;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+    margin: 20px 0;
+  }
+  
+  .input-field label {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    color: #ffffff;
+    font-size: 16px;
+    pointer-events: none;
+    transition: 0.3s ease;
+  }
+  
+  .input-field input {
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 0 10px;
+  }
+  
+  .input-field input:focus + label,
+  .input-field input:valid + label {
+    font-size: 0.9rem;
+    top: 10px;
+    transform: translateY(-150%);
+    color: #ffdde1;
+  }
+  
+  .forget {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px 0 35px 0;
+    color: #ffffff;
+  }
+  
+  #remember {
+    accent-color: #ffdde1;
+  }
+  
+  .forget label {
+    display: flex;
+    align-items: center;
+  }
+  
+  .forget label p {
+    margin-left: 8px;
+    color: #ffffff;
+  }
+  
+  .wrapper a {
+    color: #ffdde1;
+    text-decoration: none;
+  }
+  
+  .wrapper a:hover {
+    text-decoration: underline;
+  }
+  
+  button {
+    background-color: #271950;
+    color: #ffffff;
+    font-weight: 600;
+    border: none;
+    padding: 15px 20px;
+    cursor: pointer;
+    border-radius: 25px;
+    font-size: 16px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+    width: 100%;
+  }
+  
+  button:hover {
+    color: #000000;
+    background: rgba(255, 255, 255, 0.2);
+    border-color: #ffffff;
+  }
+  
+  .register {
+    text-align: center;
+    margin-top: 30px;
+    color: #ffffff;
+  }
