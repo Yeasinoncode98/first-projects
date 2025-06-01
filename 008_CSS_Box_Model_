@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Four Frag Men</title>
+    <link rel="icon" href="css.png">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+
+    <div class="parent">
+
+        <h1>Hello</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit delectus maxime officiis ut dolores aliquid
+            tempora non suscipit esse repellat dolorum error, doloribus, praesentium accusamus. Expedita illo illum
+            sequi,
+            recusandae deserunt consectetur. Rerum veniam tempore mollitia soluta sequi rem, ipsam, earum quae nihil
+            ratione
+            maxime culpa et quis at vel.</p>
+
+
+
+
+
+
+    </div>
+    <div class="parent">
+
+        <h1>Hello</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit delectus maxime officiis ut dolores aliquid
+            tempora non suscipit esse repellat dolorum error, doloribus, praesentium accusamus. Expedita illo illum
+            sequi,
+            recusandae deserunt consectetur. Rerum veniam tempore mollitia soluta sequi rem, ipsam, earum quae nihil
+            ratione
+            maxime culpa et quis at vel.</p>
+
+
+
+
+
+
+    </div>
+    <div class="parent">
+
+        <h1>Hello</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit delectus maxime officiis ut dolores aliquid
+            tempora non suscipit esse repellat dolorum error, doloribus, praesentium accusamus. Expedita illo illum
+            sequi,
+            recusandae deserunt consectetur. Rerum veniam tempore mollitia soluta sequi rem, ipsam, earum quae nihil
+            ratione
+            maxime culpa et quis at vel.</p>
+
+
+
+
+
+
+    </div>
+
+
+
+
+</body>
+
+</html>
+
+<!--
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*html,
+body {
+
+  height: 100%;
+
+} */
+
+html {
+  height: 50%;
+}
+
+body {
+  height: inherit;
+}
+
+/*
+.parent {
+  background: #227093;
+  color: white;
+  width: 300px;
+  margin: 10px;
+  padding: 20px;
+  border: 10px solid tomato;
+  float: left;
+} */
+
+.parent {
+  background: #227093;
+  color: white;
+  width: 25%;
+  margin: 1%;
+  padding: 2%;
+  border: 0.5em solid tomato;
+  float: left;
+}
+
+-->
