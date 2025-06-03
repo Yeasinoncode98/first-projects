@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Four Frag Men</title>
+    <link rel="icon" href="css.png">
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Edu+QLD+Hand:wght@400..700&family=Poppins:wght@100&display=swap"
+        rel="stylesheet">
+
+
+
+
+
+</head>
+
+<body>
+
+    <h1>Yeasin Arafat</h1>
+
+    <h2>Yeasin Arafat</h2>
+
+    <h3>Yeasin Arafat</h3>
+
+    <h4>Yeasin Arafat</h4>
+
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore assumenda nam unde modi, sint ut dolor culpa!
+        Illum, rem nam?</p>
+
+
+
+
+
+</body>
+
+</html>
+
+<!--
+used CSS Here
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap'); */
+
+h1 {
+  font-family: serif;
+  font-family: sans-serif;
+  font-family: monospace;
+  font-family: cursive;
+  font-family: fantasy;
+
+  /*serif fonts*/
+  font-family: 'Times New Roman';
+  font-family: Georgia;
+
+  /*Sans-serif fonts*/
+
+  font-family: arial;
+  font-family: verdana;
+
+  /*Monospace fonts*/
+
+  font-family: 'Courier New';
+
+  /*Fantasy fonts*/
+
+  font-family: papyrus;
+
+  /*Cursive fonts*/
+
+  font-family: Brush Script MT;
+
+
+}
+
+h2 {
+
+  font-family: 'Poppins', sans-serif;
+  font-size: 65px;
+  font-size: 4.0625em;
+  /* font-size: 100%; */
+
+  font-style: oblique;
+  font-style: italic;
+  font-style: normal;
+
+  font-weight: 100;
+  font-weight: 900;
+}
+
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  font-style: italic;
+}
+
+h4 {
+  font-size: 50px;
+  font-variant: small-caps;
+}
+
+
+-->
