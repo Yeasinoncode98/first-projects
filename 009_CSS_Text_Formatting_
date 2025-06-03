@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Four Frag Men</title>
+    <link rel="icon" href="css.png">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <h1> Yeasin Arafat</h1>
+
+    <!--
+  <p class="one">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere cupiditate adipisci velit sit, omnis
+    nemo dolores
+    veritatis accusantium qui! Enim aliquid nam hic error dolores perferendis iste distinctio adipisci consequuntur
+    quibusdam magnam aperiam eius vel reprehenderit, id deleniti doloremque dolorem odio tempora sed officiis eligendi!
+    Iste similique sunt at reiciendis.
+  </p>
+
+  <p class="two">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere cupiditate adipisci velit sit, omnis
+    nemo dolores
+    veritatis accusantium qui! Enim aliquid nam hic error dolores perferendis iste distinctio adipisci consequuntur
+    quibusdam magnam aperiam eius vel reprehenderit, id deleniti doloremque dolorem odio tempora sed officiis eligendi!
+    Iste similique sunt at reiciendis.
+  </p>
+
+  <h2 class="three">Yeasin Arafat</h2>
+
+  <h2> Yeasin <img class="baseline" src="box.jpg" alt="" width="8" height="8">Arafat</h2>
+
+  <h2> Yeasin <img class="text-top" src="box.jpg" alt="" width="8" height="8">Arafat</h2>
+
+  <h2> Yeasin <img class="text-bottom" src="box.jpg" alt="" width="8" height="8">Arafat</h2>
+
+  <h2> Yeasin <img class="sub" src="box.jpg" alt="" width="8" height="8">Arafat</h2>
+
+  <h2> Yeasin <img class="super" src="box.jpg" alt="" width="8" height="8">Arafat</h2>
+
+
+  <p>(a+b)<sup>2</sup></p>
+
+  <p>log<sub>10</sub></p>
+-->
+    <a href="">Yeasin Arafat</a>
+
+    <h2>yeasin arafat</h2>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quas voluptates dolore temporibus accusantium
+        doloremque totam, qui vero laboriosam rem sed nesciunt error atque quisquam! Doloremque, beatae. Laudantium
+        possimus, id perferendis rem necessitatibus iusto officia optio culpa et quaerat? Quo iure reprehenderit
+        laboriosam
+        expedita debitis! Impedit iste eveniet commodi, aperiam ullam sed architecto odit harum aliquid, nostrum
+        nesciunt,
+        dolorum ipsum nam libero. Suscipit sunt a natus dolorum veniam id enim soluta nemo odit saepe tenetur, fuga
+        dolore
+        recusandae error sit voluptate inventore quis minus quae impedit nam earum rerum nulla dignissimos? Impedit
+        eveniet
+        illum, recusandae pariatur nobis veniam ad aliquam?</p>
+
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+
+</body>
+
+</html>
+
+<!--
+used css here 
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #ff8922;
+  text-align: left;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+/*Text Align Last*/
+
+.one {
+  text-align: center;
+  text-align-last: left;
+}
+
+.two {
+  text-align: center;
+}
+
+/*Direction*/
+.three {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+.baseline {
+
+  vertical-align: baseline;
+
+}
+
+.text-top {
+  vertical-align: text-top;
+}
+
+.text-bottom {
+  vertical-align: text-bottom;
+}
+
+.sub {
+  vertical-align: sub;
+}
+
+.sub {
+  vertical-align: sub;
+}
+
+a {
+  text-decoration: overline underline;
+}
+
+h2 {
+  text-transform: uppercase;
+  /* letter-spacing: 2px; */
+  text-shadow: 0px 5px 5px blue;
+}
+
+p {
+  text-indent: 100px;
+  font-size: 15px;
+  line-height: 25px;
+  white-space: break-spaces;
+  word-spacing: 5px;
+
+
+}
+
+
+
+-->
