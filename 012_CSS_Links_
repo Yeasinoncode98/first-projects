@@ -1,3 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Four Frag Men</title>
+    <link rel="icon" href="css.png">
+    <link rel="stylesheet" href="styles.css">
+
+
+</head>
+
+<body>
+
+    <a href="">Subscribe</a>
+    <a href="#">Subscribe</a>
+    <a href="http://www.google.com">Subscribe</a>
+
+    <a class="btn" href="">Subscribe</a>
+
+
+
+</body>
+
+</html>
+
+<!---
+Used CSS Here
+
 a {
   font-size: 35px;
   color: black;
@@ -45,3 +77,5 @@ a.btn:hover {
   color: green;
 
 }
+
+-->
