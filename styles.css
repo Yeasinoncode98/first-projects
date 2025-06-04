@@ -56,3 +56,17 @@ h4 {
   font-size: 50px;
   font-variant: small-caps;
 }
+
+i {
+  color: blue;
+  background: tomato;
+  padding: 14px;
+  font-size: 14px;
+}
+
+span {
+  color: aqua;
+  background-color: tomato;
+  padding: 9px;
+  font-size: 14px;
+}
