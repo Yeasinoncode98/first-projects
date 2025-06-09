@@ -53,5 +53,5 @@ cd css
 # Open any .html file in your browns
 
 🙌 Connect with Me
-	•	GitHub: @yeasinarafat
+	•	GitHub: @Yeasinoncode98
 	•	LinkedIn: Yeasin Arafat
