@@ -2,8 +2,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/CSS3-Stylish-blue?logo=css3&logoColor=white&style=for-the-badge" />
-  <img src="https://img.shields.io/github/languages/top/yeasinarafat/css?style=for-the-badge" />
-  <img src="https://img.shields.io/github/stars/yeasinarafat/css?style=for-the-badge" />
+  <img src="https://img.shields.io/github/languages/top/Yeasinoncode98/css?style=for-the-badge" />
+  <img src="https://img.shields.io/github/stars/Yeasinoncode98/css?style=for-the-badge" />
 </p>
 
 ---
